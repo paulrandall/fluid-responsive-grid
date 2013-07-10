@@ -17,12 +17,7 @@
 .size1of6{width:16.66666%;}
 .size5of6{width:83.33333%;}
 
-.last-unit,
-.line > .size1of2:nth-child(2n+3),
-.line > .size1of3:nth-child(3n+4),
-.line > .size1of4:nth-child(4n+5),
-.line > .size1of5:nth-child(5n+6),
-.line > .size1of6:nth-child(6n+7) {background: red !important; float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
+.last-unit {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
 
 /* This is the 'Extra large' breakpoint*/
 @media only screen and (max-width: 9999px) and (min-width: 1401px) {
@@ -39,12 +34,6 @@
 	.xl-size4of5{width:80%;}
 	.xl-size1of6{width:16.66666%;}
 	.xl-size5of6{width:83.33333%;}
-
-	.line > .xl-size1of2:nth-child(2n+2),
-	.line > .xl-size1of3:nth-child(3n+3),
-	.line > .xl-size1of4:nth-child(4n+4),
-	.line > .xl-size1of5:nth-child(5n+5),
-	.line > .xl-size1of6:nth-child(6n+6) {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
 
 }
 
@@ -63,12 +52,6 @@
 	.l-size4of5{width:80%;}
 	.l-size1of6{width:16.66666%;}
 	.l-size5of6{width:83.33333%;}
-	
-	.line > .l-size1of2:nth-child(2n+2),
-	.line > .l-size1of3:nth-child(3n+3),
-	.line > .l-size1of4:nth-child(4n+4),
-	.line > .l-size1of5:nth-child(5n+5),
-	.line > .l-size1of6:nth-child(6n+6) {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
 
 }
 
@@ -88,12 +71,6 @@
 	.m-size1of6{width:16.66666%;}
 	.m-size5of6{width:83.33333%;}
 	
-	.line > .m-size1of2:nth-child(2n+2),
-	.line > .m-size1of3:nth-child(3n+3),
-	.line > .m-size1of4:nth-child(4n+4),
-	.line > .m-size1of5:nth-child(5n+5),
-	.line > .m-size1of6:nth-child(6n+6) {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
-
 }
 
 /* This is the 'small' breakpoint */
@@ -111,12 +88,6 @@
 	.s-size4of5{width:80%;}
 	.s-size1of6{width:16.66666%;}
 	.s-size5of6{width:83.33333%;}
-	
-	.line > .s-size1of2:nth-child(2n+2),
-	.line > .s-size1of3:nth-child(3n+3),
-	.line > .s-size1of4:nth-child(4n+4),
-	.line > .s-size1of5:nth-child(5n+5),
-	.line > .s-size1of6:nth-child(6n+6) {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
 
 }
 
@@ -136,10 +107,4 @@
 	.xs-size1of6{width:16.66666%;}
 	.xs-size5of6{width:83.33333%;}
 	
-	.line > .xs-size1of2:nth-child(2n+2),
-	.line > .xs-size1of3:nth-child(3n+3),
-	.line > .xs-size1of4:nth-child(4n+4),
-	.line > .xs-size1of5:nth-child(5n+5),
-	.line > .xs-size1of6:nth-child(6n+6) {float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px; overflow:hidden; *overflow:visible;*zoom:1;}
-
 }
